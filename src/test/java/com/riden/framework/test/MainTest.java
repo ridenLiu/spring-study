@@ -34,7 +34,6 @@ public class MainTest  {
         applicationContext.registerShutdownHook();
     }
 
-
     public void test_appContext() {
         ClassPathXmlApplicationContext applicationContext =
                 new ClassPathXmlApplicationContext(new String[]{"classpath:spring-config.xml"});
