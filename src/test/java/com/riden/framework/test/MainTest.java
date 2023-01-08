@@ -21,11 +21,9 @@ public class MainTest  {
         m.test_event();
     }
 
-
     public void test_aop() {
 
     }
-
     public void test_event() {
         ClassPathXmlApplicationContext applicationContext =
                 new ClassPathXmlApplicationContext(new String[]{"classpath:spring-config.xml"});
